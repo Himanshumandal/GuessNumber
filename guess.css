@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+ .nav{
+    margin-top:20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    width:100%;
+ }
+ .navi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    background-color: gray;
+ }
+ .navi a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+ }
+ .form{
+    background-color: gray;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+ #guess{
+    font-size: 50px;
+    font-weight: 700;
+ }
+ input{
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow:gainsboro;
+ }
+ .guesss{
+    width: 70px;
+    background-color: black;
+    color:aliceblue ;
+ }
+ .resultprev{
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+
+ }
